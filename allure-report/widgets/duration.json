@@ -1,0 +1,31 @@
+[ {
+  "uid" : "bcbb99244fc6d555",
+  "name" : "test_search",
+  "time" : {
+    "start" : 1574213796719,
+    "stop" : 1574213797391,
+    "duration" : 672
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "19a49b6ab804966b",
+  "name" : "test_title",
+  "time" : {
+    "start" : 1574213803431,
+    "stop" : 1574213804292,
+    "duration" : 861
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3033b767e3b21a08",
+  "name" : "test_search_airmax",
+  "time" : {
+    "start" : 1574213788641,
+    "stop" : 1574213790056,
+    "duration" : 1415
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

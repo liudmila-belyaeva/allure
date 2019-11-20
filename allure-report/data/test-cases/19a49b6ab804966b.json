@@ -1,0 +1,95 @@
+{
+  "uid" : "19a49b6ab804966b",
+  "name" : "test_title",
+  "fullName" : "testinterview.amazon.test_title#test_title",
+  "historyId" : "c028d0632590935e18843bb9ace27b21",
+  "time" : {
+    "start" : 1574213803431,
+    "stop" : 1574213804292,
+    "duration" : 861
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Robot Check' == 'Amazon.com: ..., DVDs & more'\n  - Robot Check\n  + Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+  "statusTrace" : "env_setup = None\n\n    def test_title(env_setup):\n        # navigate to Amazon.com home page\n        driver.get(base_url)\n        # verify that website title is Amazon.com\n>       assert driver.title == expected_title\nE       AssertionError: assert 'Robot Check' == 'Amazon.com: ..., DVDs & more'\nE         - Robot Check\nE         + Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more\n\ntestinterview\\amazon\\test_title.py:29: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env_setup",
+    "time" : {
+      "start" : 1574213800079,
+      "stop" : 1574213803430,
+      "duration" : 3351
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "env_setup::0",
+    "time" : {
+      "start" : 1574213804298,
+      "stop" : 1574213806779,
+      "duration" : 2481
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a2407321626d715d",
+      "name" : "Screenshot",
+      "source" : "a2407321626d715d.png",
+      "type" : "image/png",
+      "size" : 69819
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testinterview.amazon"
+  }, {
+    "name" : "suite",
+    "value" : "test_title"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E08NRDG"
+  }, {
+    "name" : "thread",
+    "value" : "42828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testinterview.amazon.test_title"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "19a49b6ab804966b.json",
+  "parameterValues" : [ ]
+}
